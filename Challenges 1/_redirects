@@ -1,4 +1,4 @@
 [[redirects]]
-from = "Challenges 1*"
-to = /challenge.1.html"
+from = "/*"
+to = "/index.html"
 status = 200
