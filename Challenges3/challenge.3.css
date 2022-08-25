@@ -1,0 +1,101 @@
+:root {
+    --Softblue: hsl(215, 51%, 70%, 65%);
+    --cyan: hsl(178, 100%, 50%, 80%);
+    --Verydarkblue:hsl(217, 54%, 11%);
+    --Verydarkblue1: hsl(216, 50%, 16%);
+    --Verydarkblue2: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 1em;
+    min-height: 100vh;
+    background-color: var(--Verydarkblue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Outfit', sans-serif;
+}
+    /* card and img */
+.nftcardbg {
+    background-color: var(--Verydarkblue1);
+    border-radius: 0.6rem;
+    width: 19.5rem;
+    height: 33rem;
+    padding: 0.938rem;
+    border: 5px solid var(--Verydarkblue1);
+    box-shadow: 11px 30px 77px 17px rgba(0,0,0,0.69);
+}
+.imgnftcard {
+    border-radius: 0.6rem;
+    width: 100%;
+    min-height: 15.625rem;  
+    display: block;
+    padding: 0.063rem;
+
+}
+/* text */
+.right {
+    float: right;
+}
+h1 {
+    font-weight: 600;
+    margin-top: 1em;
+    font-size: 1.125em;
+    color: var(--White);
+}
+.paragraph1 {
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 1em;
+    margin: 1em 0 1.25em;
+    color: var(--Softblue)
+}
+.left {
+    float: left;
+    font-weight: 600;
+}
+.paragraph2 {
+    margin-left: 0.313em;
+    color: var(--cyan);
+    font-size: 0.9em;
+}
+.clock {
+    position: relative;
+    left: 6.4em;
+}
+.paragraph3 {
+    font-weight: 400;
+    font-size: 0.9em;
+    color: var(--Softblue)
+}
+.paragraph4 {
+    margin: 1.3em;
+    text-align: center;
+    color: var(--Softblue);
+    font-weight: 300;
+}
+span {
+    color: white;
+    margin-left: 5px;
+}
+/* line */
+hr {
+    opacity: 0.1;
+    margin-top: 20px;
+}
+.iconimg {
+    position: absolute;
+    margin-top: 0.938rem;
+    width: 1.9em;
+    border-radius: 50%;
+    border: 0.5px solid white;
+}
+
+
