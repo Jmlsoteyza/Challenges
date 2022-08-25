@@ -25,10 +25,10 @@ body {
 .nftcardbg {
     background-color: var(--Verydarkblue1);
     border-radius: 0.6rem;
-    width: 19.5rem;
-    height: 33rem;
+    width: 22rem;
+    height: 37rem;
     padding: 0.938rem;
-    border: 5px solid var(--Verydarkblue1);
+    border: 10px solid var(--Verydarkblue1);
     box-shadow: 11px 30px 77px 17px rgba(0,0,0,0.69);
 }
 .imgnftcard {
@@ -53,7 +53,7 @@ h1 {
     overflow: hidden;
     white-space: nowrap;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 18px;
     margin: 1em 0 1.25em;
     color: var(--Softblue)
 }
@@ -64,19 +64,20 @@ h1 {
 .paragraph2 {
     margin-left: 0.313em;
     color: var(--cyan);
-    font-size: 0.9em;
+    font-size: 1em;
 }
 .clock {
     position: relative;
-    left: 6.4em;
+    left: 6.6em;
+    top: 1.356px;
 }
 .paragraph3 {
     font-weight: 400;
-    font-size: 0.9em;
+    font-size: 1em;
     color: var(--Softblue)
 }
 .paragraph4 {
-    margin: 1.3em;
+    margin: 1.5em -1em;
     text-align: center;
     color: var(--Softblue);
     font-weight: 300;
@@ -93,7 +94,7 @@ hr {
 .iconimg {
     position: absolute;
     margin-top: 0.938rem;
-    width: 1.9em;
+    width: 2.2em;
     border-radius: 50%;
     border: 0.5px solid white;
 }
