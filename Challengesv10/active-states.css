@@ -1,0 +1,20 @@
+ul li:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+.sidebar--section, h3:hover{
+    color: hsl(35, 77%, 62%);
+}
+.title-text__font:hover{
+    cursor: pointer;
+}
+.title-sets:hover{
+  color:  hsl(5, 85%, 63%);
+}
+a .readmore:hover{
+    background-color: hsl(240, 100%, 5%);
+    border-color: hsl(240, 100%, 5%);
+}
+a:hover{
+    background-color: hsl(240, 100%, 5%);
+}

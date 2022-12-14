@@ -1,0 +1,9 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {line-height: 1.5;-webkit-font-smoothing: antialiased;}
+
+
+img, picture, video, canvas, svg {display: block;max-width: 100%; image-resolution: 300dpi;}

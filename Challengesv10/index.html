@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="Challenges.10.css">
+  <link rel="stylesheet" href="active-states.css">
+  <link rel="stylesheet" href="reset.css">
+  <title>Frontend Mentor | News homepage</title>
+  <script src="nav.js" defer></script>
+
+</head>
+<body class="overlay">
+  <main>
+    <header class="flex">
+      <img src="assets/images/logo.svg" alt="Frontend">
+
+
+
+      <button class="mobile-toggle" aria-controls="navigation" aria-expanded="false">
+        <span></span>
+      </button>
+      <nav>
+        <ul class="flex navigation" id="navigation" data-visible="false">
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="grid">
+      <section class="big-picture">
+     <img src="assets/images/image-web-3-desktop.jpg" class="main-bg-picture" alt="">
+     <img src="assets/images/image-web-3-mobile.jpg" alt="" class="main-bg-picture1">
+    </section>
+    <section class="sidebar--section">
+      <h1 class="title--sidebar">New</h1> 
+      <article class="sidebar-first__text">
+    <h3 class="sidebar--title_hydro title-text__font">Hydrogen VS Electric Cars</h3>
+    <span class="sidebar--text_hydro sidebar__small-fonts">Will hydrogen-fueled cars ever catch up to EVs?</span>
+  </article>
+  <hr class="hr-line__one">
+  <article class="sidebar-second__text">
+  <h3 class="sidebar--second__downside title-text__font">The Downsides of AI Artistry</h3>
+  <span class="sidebar--text_downside sidebar__small-fonts">What are the possible adverse effects of on-demand AI image generation?</span>
+</article>
+<hr class="hr-line__two">
+<article class="sidebar-third__text">
+  <h3 class="title-text__font sidebar--third__funding">Is VC Funding Drying Up?</h3>
+  <span class="sidebar--text_funding sidebar__small-fonts">Private funding by VC firms is down 50% YOY. We take a look at what that means.</span>
+</article> 
+</section>
+<section class="second-row">
+  <h1 class="Web3_capital-text">The <span class="bright-text">Bright</span> Future of <span class="letter-spacing__text">Web 3.0? </h1></span>
+</section>
+<section class="second-row__second-text">
+<p class="second-row__text-drive">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+  But is it really fulfilling its promise?</p>
+  <a href=""><span class="readmore">Read More</span></a>
+</section>
+<section class="first-set-of__table table">
+<div class="image-of__computer image-of-three__sets"><img src="assets/images/image-retro-pcs.jpg" alt=""></div>
+<article class="table-text">
+  <span class="number">01</span>
+<h3 class="title-sets">Reviving Retro PCs</h3>
+<p class="pgraph-of__set">What happens when old PCs are given modern upgrades?</p>
+</article>
+</section>
+<section class="second-set-of__table table">
+  <div class="image-of__computer image-of-three__sets"><img src="assets/images/image-top-laptops.jpg" alt=""></div>
+  <article class="table-text">
+    <span class="number">02</span>
+  <h3 class="title-sets title-sets__two">Top 10 Laptops of 2022</h3>
+  <p class="pgraph-of__set">Our best picks for various needs and budgets.</p>
+  </article>
+  </section>
+  <section class="third-set-of__table table">
+    <div class="image-of__computer image-of-three__sets"><img src="assets/images/image-gaming-growth.jpg" alt=""></div>
+    <article class="table-text">
+      <span class="number">03</span>
+    <h3 class="title-sets title-sets__three">The Growth of Gaming</h3>
+    <p class="pgraph-of__set">How the pandemic has sparked fresh opportunities.</p>
+    </article>
+    </section>
+    </div>
+  </main>
+</body>
+</html>
