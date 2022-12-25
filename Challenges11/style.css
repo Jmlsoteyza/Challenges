@@ -1,0 +1,69 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 1rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+main{
+    max-width: 45.7rem;
+    width: 100%;
+    height: 52.5rem;
+    margin-top: 3.5rem;
+    border-radius: 0.75rem;
+    border: 1px solid black;
+}
+main header{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    column-gap: 0.78rem;
+    margin-top: 0.77rem;
+    width: 100%;
+    border-radius: 0.75rem;
+}
+main header h2{
+    font-weight: 800;
+}
+main header a{
+    text-decoration: none;
+    color: none;
+}
+main header .number3{
+    /* text-align: center; */
+    /* width: 2rem; */
+    /* height: 1.60rem; */
+    background-color:hsl(219, 85%, 26%);
+    margin: 0;
+    color: white;
+    font-weight: 800;
+    border-radius: 22%;
+    padding: 0.1rem 0.67rem;
+    padding-bottom: 0.17rem;
+}
+main header .read{
+    margin-left: 21.459rem;
+    color: hsl(219, 12%, 42%);
+}
+img{
+    border: 1px solid blue;
+    display: block;
+}
+section{
+    border: 1px solid red;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+span{
+    padding: 0;
+    margin: 0;
+}
+/* section{
+    display: flex;
+    flex-direction: column;
+} */
